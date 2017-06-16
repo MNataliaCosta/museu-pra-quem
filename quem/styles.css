@@ -1,27 +1,40 @@
 body{
-  background-color: #dee2e8;
+    background-color: #dee2e8;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
 
+a{
+    float: right;
+    color: black;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+h2{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 32px;
+}
+
+p{
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
 }
 
 .topo{
     margin-left: 40px;
 }
 
-a{
-    float: right;
-    color: black;
-    font-size: 30px;
-    padding-right: 20px;
-
-
+.header{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
 }
+
 .chamada{
     text-align: center;
     padding-top: 0px;
     font-size: 25px;
     font-family: 'Roboto Mono', monospace;
     margin: 10%;
-
-
-
 }
