@@ -20,6 +20,9 @@ h2{
 p{
     font-family: 'Abel', sans-serif;
     font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 25px;
 }
 
 .topo{
