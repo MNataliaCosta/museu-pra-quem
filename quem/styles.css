@@ -166,7 +166,8 @@ ul{
 .footer ul{
   list-style-type: none;
   font-weight: bold;
-  text-align: left;
+  text-align: right;
+  margin-right: 70px;
 }
 
 .tit5 p{
@@ -190,7 +191,7 @@ ul{
 .fa-facebook {
     background: #3B5998;
     color: white;
-    float: left;
-    margin-left: 40px
+    float: right;
+    margin-right: 70px;
 
 }
