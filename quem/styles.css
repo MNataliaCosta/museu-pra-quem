@@ -51,7 +51,7 @@ ul{
 }
 
 .chamada{
-    background-color: #d7dbd6;
+    background-color: #eaeaea;
     text-align: center;
     font-size: 36px;
     font-family: 'Roboto Mono', monospace;
@@ -103,7 +103,7 @@ ul{
 }
 
 .teaser{
-    background-color: #d7dbd6;
+    background-color: #eaeaea;
 }
 
 .teaser h2{
@@ -141,6 +141,7 @@ ul{
   margin-top: 50px;
   font-size: 20px;
   font-family: 'Roboto Mono', monospace;
+  color: grey ;
 
 }
 

@@ -92,7 +92,7 @@ ul{
 /*Aqui começa o último frame (frame 5)*/
 .footer{
   background-color: black;
-  color: white;
+  color: red;
   margin: 0px;
   height: 800px;
 
@@ -103,10 +103,8 @@ ul{
   width: 500px;
   text-align: center;
   margin-top: 50px;
-
   font-size: 20px;
   font-family: 'Roboto Mono', monospace;
-
 }
 
 .footer button{
