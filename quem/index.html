@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width">
+    <link type="text/javascript" src="script.js">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -65,8 +66,7 @@
       </div>
 
       <input type="text" placeholder="Nome">
-      <input type="text" placeholder="E-mail">
-
+      <input id="email" type="email" placeholder="E-mail" pattern="[a-z.]*[@]\bfoo.com" required>
       <p><button type="button" class="btn btn-default botao-enviar">Enviar</button></p>
 
       <ul>
@@ -77,6 +77,11 @@
       <!-- ícone Facebook -->
       <a href="https://www.facebook.com/museupraquem/" class="fa fa-facebook"></a>
     </div>
+
+    <script>
+      var botaoEnviar = document.getElementsByClassName("btn");
+      botaoEnviar.onclick = alert('teste');
+    </script>
 
 
   </body>
