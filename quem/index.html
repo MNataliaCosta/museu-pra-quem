@@ -64,7 +64,8 @@
       </div>
 
       <input type="text" placeholder="Nome">
-      <input type="text" placeholder="E-mail">
+      <input class="msgemail" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}" placeholder="E-mail">
+      <p class="emailInvalido"></p>
 
       <p><button type="button" class="btn btn-default botao-enviar">Enviar</button></p>
 
@@ -76,6 +77,8 @@
       <!-- ícone Facebook -->
       <a href="https://www.facebook.com/museupraquem/" class="fa fa-facebook"></a>
     </div>
+
+    <script type="text/javascript" src="validaremail.js"></script>
 
 
   </body>
