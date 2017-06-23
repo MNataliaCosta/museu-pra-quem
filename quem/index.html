@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,7 +13,7 @@
       </head>
 
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <!--<nav class="navbar navbar-default navbar-fixed-top">-->
     <div class="container">
     <div class="topo">
       <!-- Ver o que acham da orientação nova do logo + header ou se preferem logo esq e header dir -->
@@ -63,11 +64,11 @@
         <p>Assine nossa newsletter e se prepare para colocar outros sapatos e descobrir novas histórias.</p>
       </div>
 
-      <input type="text" placeholder="Nome">
-      <input class="msgemail" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}" placeholder="E-mail">
+      <input id="nome" type="text" placeholder="Nome">
+      <input id="email" class="msgemail" type="email" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}" required>
+      <p><button id="enviar" type="button" class="btn btn-default botao-enviar">Enviar</button></p>
       <p class="emailInvalido"></p>
 
-      <p><button type="button" class="btn btn-default botao-enviar">Enviar</button></p>
 
       <ul>
         <li>Endereço: Rua Casa do Ator, 929</li>
@@ -78,7 +79,8 @@
       <a href="https://www.facebook.com/museupraquem/" class="fa fa-facebook"></a>
     </div>
 
-    <script type="text/javascript" src="validaremail.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
 
 
   </body>
