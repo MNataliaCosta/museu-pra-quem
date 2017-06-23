@@ -65,9 +65,11 @@
         <p>Assine nossa newsletter e se prepare para colocar outros sapatos e descobrir novas histórias.</p>
       </div>
 
-      <input type="text" placeholder="Nome">
-      <input id="email" type="email" placeholder="E-mail" pattern="[a-z.]*[@]\bfoo.com" required>
-      <p><button type="button" class="btn btn-default botao-enviar">Enviar</button></p>
+      <input id="nome" type="text" placeholder="Nome">
+      <input id="email" class="msgemail" type="email" placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}" required>
+      <p><button id="enviar" type="button" class="btn btn-default botao-enviar">Enviar</button></p>
+      <p class="emailInvalido"></p>
+
 
       <ul>
         <li>Endereço: Rua Casa do Ator, 929</li>
@@ -78,10 +80,8 @@
       <a href="https://www.facebook.com/museupraquem/" class="fa fa-facebook"></a>
     </div>
 
-    <script>
-      var botaoEnviar = document.getElementsByClassName("btn");
-      botaoEnviar.onclick = alert('teste');
-    </script>
+    <script type="text/javascript" src="script.js"></script>
+
 
 
   </body>
