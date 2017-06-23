@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
-    <link type="text/javascript" src="script.js">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <title>Museu Pra Quem?</title>
+    <script type="text/javascript" src="script.js"></script>
       </head>
 
   <body>
@@ -64,9 +64,9 @@
         <p>Assine nossa newsletter e se prepare para colocar outros sapatos e descobrir novas histórias.</p>
       </div>
 
-      <input type="text" placeholder="Nome">
+      <input id="nome" type="text" placeholder="Nome">
       <input id="email" type="email" placeholder="E-mail" pattern="[a-z.]*[@]\bfoo.com" required>
-      <p><button type="button" class="btn btn-default botao-enviar">Enviar</button></p>
+      <p><button id="enviar" type="button" class="btn btn-default botao-enviar">Enviar</button></p>
 
       <ul>
         <li>Endereço: Rua Casa do Ator, 929</li>
@@ -77,10 +77,6 @@
       <a href="https://www.facebook.com/museupraquem/" class="fa fa-facebook"></a>
     </div>
 
-    <script>
-      var botaoEnviar = document.getElementsByClassName("btn");
-      botaoEnviar.onclick = alert('teste');
-    </script>
 
 
   </body>
